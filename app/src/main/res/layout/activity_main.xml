@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/picture"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启图片"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/picturec"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭图片"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/mood"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启溜达"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/moodc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭溜达"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/jyduck"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启加油鸭"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/jyduckc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭加油鸭"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/duck"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启小黄鸭"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/duckc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭小黄鸭"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/like"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启点赞熊"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/likec"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭点赞熊"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/bear"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启开心熊"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/bearc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭开心熊"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/balloon"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启气泡"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/balloonc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭气泡"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/ball"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启圆球"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/ballc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭圆球"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/snow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启雪花"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/snowc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭雪花"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/heart"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="开启爱心"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/heartc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭爱心"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/white"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="白色背景"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/black"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="黑色背景"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/open"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="全部开启"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/remove_id"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="全部关闭"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+	
+
+</LinearLayout>
+
